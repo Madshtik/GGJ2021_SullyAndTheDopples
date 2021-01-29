@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class AlarmObject : MonoBehaviour
 {
+    public GameObject glow;
+
+    public bool isLaptop;
+
+    Animation shake;
+
     AudioSource source;
 
     bool touched;
@@ -12,6 +18,11 @@ public class AlarmObject : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
+
+        if (!isLaptop)
+        {
+            shake = GetComponent<Animation>();
+        }
     }
 
     // Update is called once per frame
@@ -20,6 +31,15 @@ public class AlarmObject : MonoBehaviour
         if (!source.isPlaying)
         {
             touched = false;
+
+            if (isLaptop)
+            {
+                glow.SetActive(false);
+            }
+            else
+            {
+                shake.Stop();
+            }
         }
     }
 
@@ -29,6 +49,15 @@ public class AlarmObject : MonoBehaviour
         {
             source.Play();
             touched = true;
+
+            if (isLaptop)
+            {
+                glow.SetActive(true);
+            }
+            else
+            {
+                shake.Play();
+            }
         }
     }
 }
