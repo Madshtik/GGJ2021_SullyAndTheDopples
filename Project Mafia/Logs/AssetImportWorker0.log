@@ -1141,3 +1141,50 @@ System memory in use after: 71.0 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1796.
 Total: 2.930400 ms (FindLiveObjects: 0.685100 ms CreateObjectMapping: 0.131700 ms MarkObjects: 2.023000 ms  DeleteObjects: 0.087800 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002367AA26DB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000236A0DBD860 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000236A38F1E20 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002369FE7D020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002367E7FD020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023676CF0030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023676BA5420 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002367AA26DB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000236A185D030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1798.
+Total: 1.907600 ms (FindLiveObjects: 0.156200 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.623200 ms  DeleteObjects: 0.086200 ms)
+
