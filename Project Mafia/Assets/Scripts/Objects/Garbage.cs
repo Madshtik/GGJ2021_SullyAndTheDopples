@@ -8,7 +8,7 @@ public class Garbage : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //Gameover
+            //Open game over screen
         }
     }
 }

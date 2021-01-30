@@ -36,7 +36,7 @@ public class SceneController : MonoBehaviour
     public void PlayLevelOne()//put scene number input once level 1 and 2 are done
     {
         Debug.Log("Loading Level 1");
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene(1);
     }
 
     public void PlayLevelOTwo()

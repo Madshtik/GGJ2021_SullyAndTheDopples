@@ -8,19 +8,19 @@ public class ChefController : MonoBehaviour
     public Transform rotObj;
 
     public float rotationSmoothTime;
+    public float minDelayTime;
+    public float maxDelayTime;
 
     float delayTime;
 
     void Start()
     {
-        delayTime = Random.Range(5, 15);
+        delayTime = Random.Range(minDelayTime, maxDelayTime);
         StartCoroutine("RotateWithDelay", delayTime);
     }
 
     void Update()
     {
-        Debug.Log(delayTime);
-
         RotateToRotObj();
     }
 

@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class FieldOfView : MonoBehaviour
 {
+    public PlayableDirector director;
+
     public List<Transform> visibleTargets = new List<Transform>();
 
     [Header("Public Structs")]
@@ -16,9 +19,19 @@ public class FieldOfView : MonoBehaviour
     [Range(0, 360)]
     public float viewAngle;
 
+    bool started;
+
     void Start()
     {
         StartCoroutine("FindTargetWithDelay", searchDelay); 
+    }
+
+    void Update()
+    {
+        if (director.state != PlayState.Playing && started)
+        {
+            //Gameover screen
+        }
     }
 
     IEnumerator FindTargetWithDelay(float delay)
@@ -49,6 +62,8 @@ public class FieldOfView : MonoBehaviour
                 {
                     Debug.Log("Target Found");
                     visibleTargets.Add(target);
+                    director.Play();
+                    started = true;
                 }
             }
         }

@@ -725,6 +725,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1644923531}
     - target: {fileID: 6268699101972885312, guid: c38eed14a734283498203db0bbb3ee3d, type: 3}
+      propertyPath: maxDelayTime
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268699101972885312, guid: c38eed14a734283498203db0bbb3ee3d, type: 3}
+      propertyPath: minDelayTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268699101972885312, guid: c38eed14a734283498203db0bbb3ee3d, type: 3}
       propertyPath: rotationSmoothTime
       value: 2
       objectReference: {fileID: 0}
