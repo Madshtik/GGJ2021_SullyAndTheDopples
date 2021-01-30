@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
 
 public class FieldOfView : MonoBehaviour
@@ -30,7 +31,7 @@ public class FieldOfView : MonoBehaviour
     {
         if (director.state != PlayState.Playing && started)
         {
-            //Gameover screen
+            SceneManager.LoadScene(3);
         }
     }
 

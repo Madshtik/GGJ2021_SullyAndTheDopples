@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Garbage : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class Garbage : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //Open game over screen
+            SceneManager.LoadScene(2);
         }
     }
 }
