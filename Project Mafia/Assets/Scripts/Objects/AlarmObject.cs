@@ -6,24 +6,13 @@ public class AlarmObject : MonoBehaviour
 {
     public GameObject glow;
 
+    public Animator shake;
+
+    public AudioSource source;
+
     public bool isLaptop;
 
-    Animation shake;
-
-    AudioSource source;
-
     bool touched;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        source = GetComponent<AudioSource>();
-
-        if (!isLaptop)
-        {
-            shake = GetComponent<Animation>();
-        }
-    }
 
     // Update is called once per frame
     void Update()
@@ -38,14 +27,14 @@ public class AlarmObject : MonoBehaviour
             }
             else
             {
-                shake.Stop();
+                shake.SetBool("Play", false);
             }
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player") && !touched)
+        if (other.gameObject.CompareTag("Player") && !touched)
         {
             source.Play();
             touched = true;
@@ -56,7 +45,7 @@ public class AlarmObject : MonoBehaviour
             }
             else
             {
-                shake.Play();
+                shake.SetBool("Play", true);
             }
         }
     }

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BouncePad : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            //collision.gameObject.GetComponent<PlayerMovement>().Jump(50);
+            other.gameObject.GetComponent<PlayerMovement>().Jump(50);
         }
     }
 }

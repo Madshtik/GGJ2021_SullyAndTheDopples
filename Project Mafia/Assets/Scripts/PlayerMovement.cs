@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void Jump(float thisJumpHeight)
+    public void Jump(float thisJumpHeight)
     {
         if (isGrounded) //handles jumping
         {
