@@ -848,3 +848,97 @@ Received Import Request.
 Start importing Assets/Audio/[ONTIVA.COM]-Blender Sound - sound effect-HQ-[AudioTrimmer.com].wav using Guid(05b23605c82fa4e4aab416e19b497a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b23ab6eba7d089f5c555b1d5d0ce61c') in 0.038592 seconds
   Import took 0.040657 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1802.
+Total: 1.297800 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.088600 ms  DeleteObjects: 0.047000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2613.358022 seconds.
+  path: Assets/Win Timeline.playable
+  artifactKey: Guid(22a84d347f7deb8498c7bd3bf55791bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Win Timeline.playable using Guid(22a84d347f7deb8498c7bd3bf55791bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118703fd9af7d967db8d2dc74144df7d') in 0.027709 seconds
+  Import took 0.029844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.963214 seconds.
+  path: Assets/Scripts/Objects/Plate.cs
+  artifactKey: Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Objects/Plate.cs using Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f943ddfc3379fcb2763f5f48c9f6987') in 0.004682 seconds
+  Import took 0.006630 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1805.
+Total: 1.497400 ms (FindLiveObjects: 0.133200 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.287200 ms  DeleteObjects: 0.043800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1807.
+Total: 1.397300 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.171400 ms  DeleteObjects: 0.045600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.396176 seconds.
+  path: Assets/Scripts/Objects/Plate.cs
+  artifactKey: Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Objects/Plate.cs using Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eb63580d44603351d9e89a95e7e8e0') in 0.002886 seconds
+  Import took 0.004552 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
