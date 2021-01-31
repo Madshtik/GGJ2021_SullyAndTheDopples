@@ -416,7 +416,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f95807105d3b7641afcdfae27e76b53, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: congrats! you wOn
+  m_text: Congrats! you won
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4678bfaaa59830e4b9b4fc11bdc3e431, type: 2}
   m_sharedMaterial: {fileID: 6212210183951123346, guid: 4678bfaaa59830e4b9b4fc11bdc3e431, type: 2}
