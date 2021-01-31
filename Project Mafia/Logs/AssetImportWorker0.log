@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19041.746; Version 2004; 64bit' Language: 'en' Physical Memory: 16307 MB
+OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 16272 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,718 +11,47 @@ D:\Unity\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/jann_/GGJ2021/Project Mafia
+D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56000
-Successfully changed project path to: D:/jann_/GGJ2021/Project Mafia
-D:/jann_/GGJ2021/Project Mafia
+64512
+Successfully changed project path to: D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia
+D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/jann_/GGJ2021/Project Mafia/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6140
+    VRAM:     4018 MB
+    Driver:   27.21.14.5241
 Initialize mono
 Mono path[0] = 'D:/Unity/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001348 seconds.
+Registered in 0.001708 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.141 seconds
+- Completed reload, in  1.623 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000842 seconds.
+Registered in 0.001079 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002367C4A5D80 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C566010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C491030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B0ED630 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A8B0090 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B0ED630 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B7A0030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B0ED630 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A921E30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA26DB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676AF8450 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A8CF4A0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1714.
-Total: 2.557700 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.090000 ms  DeleteObjects: 0.099000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/GameOver_Caught.unity
-  artifactKey: Guid(e90f2c4cbc56fd1458ce650d3944ea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameOver_Caught.unity using Guid(e90f2c4cbc56fd1458ce650d3944ea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c9bca84b4f4f36ccdd032d4ff6ebfb') in 0.012398 seconds
-  Import took 0.014674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.669853 seconds.
-  path: Assets/Scenes/GameOver2.unity
-  artifactKey: Guid(eb145fd6700fd2b438837dd7e20c0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameOver2.unity using Guid(eb145fd6700fd2b438837dd7e20c0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f4a0d142ffa4ef9b81f13a3d6d6610') in 0.006555 seconds
-  Import took 0.014840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.433575 seconds.
-  path: Assets/Scenes/GameOver2.unity
-  artifactKey: Guid(eb145fd6700fd2b438837dd7e20c0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameOver2.unity using Guid(eb145fd6700fd2b438837dd7e20c0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a58c6873c9e20996c6bfdd61fb2554a') in 0.004294 seconds
-  Import took 0.008052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.954222 seconds.
-  path: Assets/Scenes/Win Scene.unity
-  artifactKey: Guid(61f44d88307faca48abd57b20a5dc99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Win Scene.unity using Guid(61f44d88307faca48abd57b20a5dc99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea617cf882563c17908fc3f8f0c5a72') in 0.002883 seconds
-  Import took 0.005352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.726550 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24d310769d9261b5e6421ae7251fd84') in 0.003631 seconds
-  Import took 0.006433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.921125 seconds.
-  path: Assets/Scenes/Win Scene.unity
-  artifactKey: Guid(61f44d88307faca48abd57b20a5dc99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Win Scene.unity using Guid(61f44d88307faca48abd57b20a5dc99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1240dc0641961e71b052c150806858') in 0.004346 seconds
-  Import took 0.007670 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000815 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367AAF0C50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E33DBC0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B291230 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E33DBC0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A8B0090 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E33DBC0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C27F020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E33DBC0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367692E7B0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676BF2B90 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C566010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 66.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 1.585700 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.368100 ms  DeleteObjects: 0.051400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.933821 seconds.
-  path: Assets/Scripts/ChefAI
-  artifactKey: Guid(cf2db447a8a3856429efc045502b40e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ChefAI using Guid(cf2db447a8a3856429efc045502b40e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f8fc4930f96e6f376d0c6d8e949f63') in 0.005431 seconds
-  Import took 0.007718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.299894 seconds.
-  path: Assets/Scripts/Objects
-  artifactKey: Guid(84f6c217b205f01458ef2b51557b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Objects using Guid(84f6c217b205f01458ef2b51557b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5438e1ae78e944244bbd19a0d5b9403e') in 0.003114 seconds
-  Import took 0.005112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.740347 seconds.
-  path: Assets/Scripts/Objects/Garbage.cs
-  artifactKey: Guid(63d8c401e77364944926e7d921032e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Objects/Garbage.cs using Guid(63d8c401e77364944926e7d921032e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0170f5b7c035a55ea579906e629e2625') in 0.063418 seconds
-  Import took 0.065424 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000670 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367B7DFB90 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B305020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E395350 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676BE8C30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3CBCA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA2EB00 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B161020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676854410 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367BF61E50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B43E7B0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C7DA020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.9 MB.
-System memory in use after: 67.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1718.
-Total: 4.134700 ms (FindLiveObjects: 0.476300 ms CreateObjectMapping: 0.237900 ms MarkObjects: 3.358100 ms  DeleteObjects: 0.059700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.371254 seconds.
-  path: Assets/Scripts/Objects/Garbage.cs
-  artifactKey: Guid(63d8c401e77364944926e7d921032e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Objects/Garbage.cs using Guid(63d8c401e77364944926e7d921032e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59df8cebcd8252cbe3d410da5770b060') in 0.004297 seconds
-  Import took 0.006825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.112401 seconds.
-  path: Assets/Scripts/Objects/Plate.cs
-  artifactKey: Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Objects/Plate.cs using Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b66934f7efed1d5bbfec77d388a331') in 0.002751 seconds
-  Import took 0.005371 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000696 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367DDA1C50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367BF58020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DF15040 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676CF1F90 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FEE5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD7A860 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E144180 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C6CCA60 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EBFAB60 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DE97340 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.0 MB.
-System memory in use after: 67.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1720.
-Total: 1.986800 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.055800 ms MarkObjects: 1.734300 ms  DeleteObjects: 0.060500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.865945 seconds.
-  path: Assets/Scripts/Objects/Plate.cs
-  artifactKey: Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Objects/Plate.cs using Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f226eeb5c089b4e0a8485e008636d64') in 0.003805 seconds
-  Import took 0.005800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003957 seconds.
-  path: Assets/Scripts/Objects/Plate.cs
-  artifactKey: Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Objects/Plate.cs using Guid(fa5ad6ebab47184409ad2bb53cb2b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f226eeb5c089b4e0a8485e008636d64') in 0.002038 seconds
-  Import took 0.003980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.931237 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(1a136f01f5c4bcd4694b9f152a5a96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(1a136f01f5c4bcd4694b9f152a5a96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7824db86d330cc25335f8bc9f537a28a') in 0.010987 seconds
-  Import took 0.013556 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367AAF0C50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B0E9870 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E5227A0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676BE8C30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3ABC90 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ACD5010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FBA3AD0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DCFD990 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D81B070 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3479B0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EBFAB60 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C6DDFC0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.6 MB.
-System memory in use after: 67.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 4.187500 ms (FindLiveObjects: 0.565500 ms CreateObjectMapping: 0.205400 ms MarkObjects: 3.324000 ms  DeleteObjects: 0.088800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000856 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367DF43FF0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B0E9870 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FD4F020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DDA42A0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DC02F60 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FCA5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FDB6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E144180 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA2EB00 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DDAE740 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EBFAB60 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3ABC90 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1724.
-Total: 2.508100 ms (FindLiveObjects: 0.307700 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.019300 ms  DeleteObjects: 0.069600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003043 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367D44FD50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AF1D150 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D600060 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E1F9F30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E144180 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DC66FD0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676AF7030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EC0AFD0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.462 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1726.
-Total: 4.172300 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.056000 ms MarkObjects: 3.737300 ms  DeleteObjects: 0.110300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000886 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ADC2020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ECC0CC0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FCA5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DBC10B0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DCFD990 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED54EF0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676CFDE60 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FAAC010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1728.
-Total: 3.343700 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.057500 ms MarkObjects: 2.928000 ms  DeleteObjects: 0.142800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000960 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367E72CEE0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676AF7030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D2C4090 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E1F9F30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA2EB00 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676AF7030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DCFD990 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.573 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.8 MB.
-System memory in use after: 67.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1730.
-Total: 2.476400 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.116800 ms MarkObjects: 1.996300 ms  DeleteObjects: 0.079100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001417 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367E72CEE0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0673020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768954E0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CBDC0D0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FCA5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676B93010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3E9010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B189040 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.807 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1732.
-Total: 4.571400 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.141600 ms MarkObjects: 3.978000 ms  DeleteObjects: 0.092400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 824.283472 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e352fdc76126579657e431981228642b') in 0.018377 seconds
-  Import took 0.022158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004246 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e352fdc76126579657e431981228642b') in 0.004499 seconds
-  Import took 0.008647 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003387 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367DDA1C50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EC04E30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E64F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E1F9F30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E64F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA2EB00 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3E9010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A993010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.724 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1734.
-Total: 7.630200 ms (FindLiveObjects: 0.633500 ms CreateObjectMapping: 0.181400 ms MarkObjects: 6.700000 ms  DeleteObjects: 0.110500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002142 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367D44FD50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3E9010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DCDEF00 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E1F9F30 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE7D020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676854410 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED8AAF0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367692E7B0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3E9010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A993010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -730,461 +59,257 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.235 seconds
+- Completed reload, in  1.096 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.8 MB.
-System memory in use after: 67.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1736.
-Total: 4.932900 ms (FindLiveObjects: 1.147600 ms CreateObjectMapping: 0.238600 ms MarkObjects: 3.394800 ms  DeleteObjects: 0.147700 ms)
-
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001459 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3E9010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E64F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE93030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676854410 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A1487020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E3E9010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676D13890 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.011 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.1 MB.
+Unloading 1273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1738.
-Total: 10.078000 ms (FindLiveObjects: 0.886900 ms CreateObjectMapping: 1.348000 ms MarkObjects: 7.666200 ms  DeleteObjects: 0.171100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002775 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DEBC270 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE7D020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0CE1040 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367D9A5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676D13890 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.010 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.4 MB.
-System memory in use after: 67.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 2.881600 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.395200 ms  DeleteObjects: 0.146700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002720 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768954E0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0BA9020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FABC030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E64F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0B24020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B359020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.421 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.8 MB.
-System memory in use after: 67.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1742.
-Total: 11.424200 ms (FindLiveObjects: 0.931500 ms CreateObjectMapping: 0.412800 ms MarkObjects: 9.920000 ms  DeleteObjects: 0.155500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002210 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367DDA1C50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A05EF020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E0B0080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DCDEF00 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E229F90 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EBF6310 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE93030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.838 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1744.
-Total: 24.459600 ms (FindLiveObjects: 16.858700 ms CreateObjectMapping: 0.404900 ms MarkObjects: 7.108000 ms  DeleteObjects: 0.083500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002213 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A00B2020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768954E0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0CB1020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE7D020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A8F4020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AC61010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C6ECA70 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CCF2DF0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AF12010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FCA5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.463 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.4 MB.
-System memory in use after: 67.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1746.
-Total: 2.018700 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.713900 ms  DeleteObjects: 0.072100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001217 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A00B2020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768954E0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E905020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE7D020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A8F4020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD0F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DDAE740 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AF12010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FCA5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.8 MB.
-System memory in use after: 67.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1748.
-Total: 9.115300 ms (FindLiveObjects: 0.521300 ms CreateObjectMapping: 0.346800 ms MarkObjects: 7.997900 ms  DeleteObjects: 0.243800 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1716.
+Total: 2.347300 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.055400 ms MarkObjects: 2.042300 ms  DeleteObjects: 0.088700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 963.278938 seconds.
-  path: Assets/Fonts/Pixelmania SDF.asset
-  artifactKey: Guid(4678bfaaa59830e4b9b4fc11bdc3e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Pixelmania SDF.asset using Guid(4678bfaaa59830e4b9b4fc11bdc3e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eda6cd6caf7c2dfc41e2e0df92735a8') in 0.430469 seconds
-  Import took 0.438390 seconds .
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(bbb7eebe001b7294297baf40c6ebe017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(bbb7eebe001b7294297baf40c6ebe017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf648abc6e283121147026eda6c3e560') in 0.277869 seconds
+  Import took 0.280595 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001097 seconds.
-  path: Assets/Fonts/Pixelmania.ttf
-  artifactKey: Guid(b7119f84a561cba47943da4763cf8721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Pixelmania.ttf using Guid(b7119f84a561cba47943da4763cf8721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aad1c983bafb28f08053067735739a0') in 0.058887 seconds
-  Import took 0.065340 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009036 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002367E91D050 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E64F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A1403020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367A8F4020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CE07010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CCF2DF0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236768F6020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FCA5020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.873 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.6 MB.
-System memory in use after: 71.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1794.
-Total: 21.609700 ms (FindLiveObjects: 0.507100 ms CreateObjectMapping: 0.277500 ms MarkObjects: 20.619800 ms  DeleteObjects: 0.171000 ms)
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(6bd73b39dd8a2ce4eb509f5abb3eac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(6bd73b39dd8a2ce4eb509f5abb3eac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59966690b3201dbd6e6cd9b8191acc27') in 0.024429 seconds
+  Import took 0.027362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 347.455823 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e598f681c9759cbb59f46dc9bfe47fa') in 0.031695 seconds
-  Import took 0.036813 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Materials/Water.mat
+  artifactKey: Guid(8efe4f9e2d904f54a9c72f0806e627cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Water.mat using Guid(8efe4f9e2d904f54a9c72f0806e627cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346741242e85e1d0ddaed2a492307718') in 0.152356 seconds
+  Import took 0.156184 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002305 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DC90690 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD0F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A182D010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD63B50 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367CBC9040 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DD0F010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0CE1080 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367EBF6310 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367DC90690 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367B53F030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.9 MB.
-System memory in use after: 71.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1796.
-Total: 2.930400 ms (FindLiveObjects: 0.685100 ms CreateObjectMapping: 0.131700 ms MarkObjects: 2.023000 ms  DeleteObjects: 0.087800 ms)
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Materials/Glow White.mat
+  artifactKey: Guid(7196e1f84576aca4ea99dd429ce5cb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glow White.mat using Guid(7196e1f84576aca4ea99dd429ce5cb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f424e44b8aad66287339615a36a93633') in 0.151156 seconds
+  Import took 0.153590 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000922 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000236769CBDB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367ED26010 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA26DB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A0DBD860 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A38F1E20 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002369FE7D020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367E7FD020 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676CF0030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367C495CA0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023676BA5420 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002367AA26DB0 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000236A185D030 doesn't match image D:\jann_\GGJ2021\Project Mafia\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.3 MB.
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(2902992cb9ed60541b9c2999d4ee9b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(2902992cb9ed60541b9c2999d4ee9b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d01e52356af911c101a8a9e7e57add') in 0.020190 seconds
+  Import took 0.023448 seconds .
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1798.
-Total: 1.907600 ms (FindLiveObjects: 0.156200 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.623200 ms  DeleteObjects: 0.086200 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 1275.686465 seconds.
+  path: Assets/Models/Food game
+  artifactKey: Guid(0ee9c62c0175c534bb937cadcbf4db41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game using Guid(0ee9c62c0175c534bb937cadcbf4db41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba755adce163ceb5f04df71a064f01') in 0.007042 seconds
+  Import took 0.009698 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 4.225917 seconds.
+  path: Assets/Models/Food game/Shelf
+  artifactKey: Guid(1d554f6aeedb26f459df1e4fb8ebd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Shelf using Guid(1d554f6aeedb26f459df1e4fb8ebd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301e3b8a7acb1d92f02e1370fedf22a4') in 0.006360 seconds
+  Import took 0.008700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088982 seconds.
+  path: Assets/Models/Food game/Shelf/shelf.obj
+  artifactKey: Guid(56de483ca0a15c2419bcc59f845011e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Shelf/shelf.obj using Guid(56de483ca0a15c2419bcc59f845011e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab034859fc18aee4eea57da6a279d7c') in 0.077044 seconds
+  Import took 0.079526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/Food game/Shelf/shelf.png
+  artifactKey: Guid(e39a4b30b48c70d40b28820e5bd69044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Shelf/shelf.png using Guid(e39a4b30b48c70d40b28820e5bd69044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a011dc6a54516f27ecd5f75f4edfcf') in 0.018649 seconds
+  Import took 0.021083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.493426 seconds.
+  path: Assets/Models/Food game/Door
+  artifactKey: Guid(68f0eb793a590e547aaed582a910fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Door using Guid(68f0eb793a590e547aaed582a910fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67226e1bb2ad47ee1cadf5b021adece5') in 0.008168 seconds
+  Import took 0.011103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.232769 seconds.
+  path: Assets/Models/Food game/Door/door.obj
+  artifactKey: Guid(dec50a6d04926f5469b62e592782ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Door/door.obj using Guid(dec50a6d04926f5469b62e592782ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b95f49329db23e161796eaab2cdff') in 0.030306 seconds
+  Import took 0.032806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Models/Food game/Door/door.png
+  artifactKey: Guid(c521a0bede277a74f905a05526ce24e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Door/door.png using Guid(c521a0bede277a74f905a05526ce24e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baac03f420c84e05b2a32fb21602d86') in 0.006080 seconds
+  Import took 0.008278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.175731 seconds.
+  path: Assets/Models/Food game/window
+  artifactKey: Guid(d989d6541a4d0dd449185e5231f0105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/window using Guid(d989d6541a4d0dd449185e5231f0105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734b5168a9c181889da1bccf2b3e9837') in 0.008122 seconds
+  Import took 0.010943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081789 seconds.
+  path: Assets/Models/Food game/window/window.obj
+  artifactKey: Guid(87c294e7463916d46baae96a7a9c5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/window/window.obj using Guid(87c294e7463916d46baae96a7a9c5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70d9b73d72b7ba1f5ad30b1c707371f') in 0.025027 seconds
+  Import took 0.027525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Models/Food game/window/window.png
+  artifactKey: Guid(a4ce3c62db16833488d98f8bc6818b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/window/window.png using Guid(a4ce3c62db16833488d98f8bc6818b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b2e0a23bda7867a22f90f7318542ce') in 0.006097 seconds
+  Import took 0.008563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.652919 seconds.
+  path: Assets/Models/Food game/Chef
+  artifactKey: Guid(b88fc6400f71aff4e852a98d2e94ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Chef using Guid(b88fc6400f71aff4e852a98d2e94ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36cb4bdd12bf189884c25734911a895') in 0.008341 seconds
+  Import took 0.011931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.725604 seconds.
+  path: Assets/Models/Food game/Chef/chef crying.png
+  artifactKey: Guid(1b9fa5f22e61de14f884bb3ddcc7231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Chef/chef crying.png using Guid(1b9fa5f22e61de14f884bb3ddcc7231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843f60a43128ba439b34c12a6f2abe6d') in 0.012394 seconds
+  Import took 0.015433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Models/Food game/Chef/chef.png
+  artifactKey: Guid(cd0a53840acd1b34da52afec49e05f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Chef/chef.png using Guid(cd0a53840acd1b34da52afec49e05f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab28e1755e0cee9de55094498f0bcb5') in 0.015244 seconds
+  Import took 0.017790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Models/Food game/Chef/Crying Chef.mat
+  artifactKey: Guid(fdf69523ff5b8974a95d3e9327f16344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Chef/Crying Chef.mat using Guid(fdf69523ff5b8974a95d3e9327f16344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d202bea420597e2d181dcadb412726') in 0.023593 seconds
+  Import took 0.026320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Models/Food game/Chef/Chef.mat
+  artifactKey: Guid(ed01d0d5b42f7334e81dc71c280f494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Chef/Chef.mat using Guid(ed01d0d5b42f7334e81dc71c280f494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350de5c427f22894be2a0407150b6598') in 0.017492 seconds
+  Import took 0.021122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Models/Food game/Chef/chef.obj
+  artifactKey: Guid(6df9282db8d74a844862c943a5582baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Chef/chef.obj using Guid(6df9282db8d74a844862c943a5582baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb6fbaabc9184792dee71bf704a611e') in 0.031846 seconds
+  Import took 0.035211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.103033 seconds.
+  path: Assets/Models/Food game/Ceiling Fan
+  artifactKey: Guid(0a570fc93e7e9f440ac63da092cdd98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Ceiling Fan using Guid(0a570fc93e7e9f440ac63da092cdd98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3b94035809441ff623988f41e84895') in 0.008996 seconds
+  Import took 0.011561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336109 seconds.
+  path: Assets/Models/Food game/Ceiling Fan/fan.obj
+  artifactKey: Guid(94d7643d564e8c24981b6ee210c5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Ceiling Fan/fan.obj using Guid(94d7643d564e8c24981b6ee210c5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94c20a52d4530c1dce0d7bb898858d1') in 0.036685 seconds
+  Import took 0.039332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Models/Food game/Ceiling Fan/fan.png
+  artifactKey: Guid(2283512ef4db00d4cb800bd5e3169f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Ceiling Fan/fan.png using Guid(2283512ef4db00d4cb800bd5e3169f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9ec165579a1a56b37911e625d4e862') in 0.007196 seconds
+  Import took 0.009775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.639504 seconds.
+  path: Assets/Models/Food game/Clock
+  artifactKey: Guid(8f8c6ff6e2936844d8007ef838e1e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Clock using Guid(8f8c6ff6e2936844d8007ef838e1e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ce8de43fab01af52b4be19d8d8a50a') in 0.006322 seconds
+  Import took 0.008571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051989 seconds.
+  path: Assets/Models/Food game/Clock/clock.obj
+  artifactKey: Guid(bdf29bd7f608f904789211010f531cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Clock/clock.obj using Guid(bdf29bd7f608f904789211010f531cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1944710e4abd09a72a739ca0d3e6e1f2') in 0.028655 seconds
+  Import took 0.031474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Models/Food game/Clock/clock.png
+  artifactKey: Guid(7ab6f5dfbb469d24cb6f5de5ff19357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Clock/clock.png using Guid(7ab6f5dfbb469d24cb6f5de5ff19357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ee29a723b1cf761f83bdb21602212') in 0.006683 seconds
+  Import took 0.010046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.111816 seconds.
+  path: Assets/Models/Food game/Photo
+  artifactKey: Guid(55ac218fa5cfa644daaf9489f639c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Photo using Guid(55ac218fa5cfa644daaf9489f639c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f32c820bd6828a153622a5defa6ad03') in 0.008412 seconds
+  Import took 0.010840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285195 seconds.
+  path: Assets/Models/Food game/Photo/photo.obj
+  artifactKey: Guid(da6e950bfdc3e3b4bbe4a53a621b71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Photo/photo.obj using Guid(da6e950bfdc3e3b4bbe4a53a621b71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ff014ba80380b92298575b3ff9745f') in 0.026929 seconds
+  Import took 0.029204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Models/Food game/Photo/photo.png
+  artifactKey: Guid(3c1311c49e02061499f17e32b444c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food game/Photo/photo.png using Guid(3c1311c49e02061499f17e32b444c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a97a82dfb74dc0548a3c1b317132ff') in 0.005770 seconds
+  Import took 0.008063 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
