@@ -1,29 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6832523560763697971
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21bf7f712d84d26478ebe6a299f21738, type: 3}
-  m_Name: Activation Track (3)
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips: []
-  m_Markers:
-    m_Objects: []
-  m_PostPlaybackState: 3
 --- !u!114 &-6247739092778113195
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -862,7 +838,6 @@ MonoBehaviour:
   - {fileID: -2348967439180247340}
   - {fileID: 9187336995941089648}
   - {fileID: -6038883418308280242}
-  - {fileID: -6832523560763697971}
   - {fileID: -978079268129276177}
   - {fileID: 9220642299747838991}
   - {fileID: 5838656270560779266}
@@ -892,7 +867,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 11.840002, y: 16.941612, z: -15.800003}
+        value: {x: 32.08999, y: -66.42839, z: 136.09}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -947,7 +922,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 11.840002
+        value: 32.08999
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -966,7 +941,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 16.941612
+        value: -66.42839
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -985,7 +960,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -15.800003
+        value: 136.09
         inSlope: 0
         outSlope: 0
         tangentMode: 136
