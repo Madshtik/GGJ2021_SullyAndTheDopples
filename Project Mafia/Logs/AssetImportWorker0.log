@@ -1,315 +1,364 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 16272 MB
+OS: 'Windows 10 Pro; OS build 19041.746; Version 2004; 64bit' Language: 'en' Physical Memory: 65451 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2020.2.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia
+D:/Projects/Project GJJ/Project Mafia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64512
-Successfully changed project path to: D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia
-D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia
+54449
+Successfully changed project path to: D:/Projects/Project GJJ/Project Mafia
+D:/Projects/Project GJJ/Project Mafia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity Projects/GGJ2021_SullyAndTheDopples/Project Mafia/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Project GJJ/Project Mafia/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.5241
+    VRAM:     8010 MB
+    Driver:   27.21.14.6079
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001708 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001210 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.623 seconds
+- Completed reload, in  0.749 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001079 seconds.
+Registered in 0.000379 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
+- Completed reload, in  0.640 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1273 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
+Unloading 1275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 2.347300 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.055400 ms MarkObjects: 2.042300 ms  DeleteObjects: 0.088700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/Blue.mat
-  artifactKey: Guid(bbb7eebe001b7294297baf40c6ebe017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Blue.mat using Guid(bbb7eebe001b7294297baf40c6ebe017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf648abc6e283121147026eda6c3e560') in 0.277869 seconds
-  Import took 0.280595 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1718.
+Total: 1.391300 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.202500 ms  DeleteObjects: 0.046000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(6bd73b39dd8a2ce4eb509f5abb3eac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red.mat using Guid(6bd73b39dd8a2ce4eb509f5abb3eac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59966690b3201dbd6e6cd9b8191acc27') in 0.024429 seconds
-  Import took 0.027362 seconds .
+  path: Assets/Audio/Sully Meow.wav
+  artifactKey: Guid(e7780b90d21680a4495200c206e002a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sully Meow.wav using Guid(e7780b90d21680a4495200c206e002a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be728e5d16b23215922b5482153ee23c') in 0.066826 seconds
+  Import took 0.068477 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Materials/Water.mat
-  artifactKey: Guid(8efe4f9e2d904f54a9c72f0806e627cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Water.mat using Guid(8efe4f9e2d904f54a9c72f0806e627cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346741242e85e1d0ddaed2a492307718') in 0.152356 seconds
-  Import took 0.156184 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Audio/Idle.wav
+  artifactKey: Guid(57e1d204827324840a36e095685117c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Idle.wav using Guid(57e1d204827324840a36e095685117c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be2caaeb8292df1af7911ecff3ce675') in 0.010615 seconds
+  Import took 0.012016 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Materials/Glow White.mat
-  artifactKey: Guid(7196e1f84576aca4ea99dd429ce5cb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glow White.mat using Guid(7196e1f84576aca4ea99dd429ce5cb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f424e44b8aad66287339615a36a93633') in 0.151156 seconds
-  Import took 0.153590 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Audio/Opening.wav
+  artifactKey: Guid(04bd7aadba4bc484c93207969138079d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Opening.wav using Guid(04bd7aadba4bc484c93207969138079d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63906f063eb2365ad6cb147037ca6c7') in 0.010929 seconds
+  Import took 0.012417 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Materials/Black.mat
-  artifactKey: Guid(2902992cb9ed60541b9c2999d4ee9b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Black.mat using Guid(2902992cb9ed60541b9c2999d4ee9b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d01e52356af911c101a8a9e7e57add') in 0.020190 seconds
-  Import took 0.023448 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Audio/[ONTIVA.COM]-Blender Sound - sound effect-HQ-[AudioTrimmer.com].wav
+  artifactKey: Guid(05b23605c82fa4e4aab416e19b497a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/[ONTIVA.COM]-Blender Sound - sound effect-HQ-[AudioTrimmer.com].wav using Guid(05b23605c82fa4e4aab416e19b497a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aece7d1b48082d90e379c7c9abf51e') in 0.008834 seconds
+  Import took 0.010294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1275.686465 seconds.
-  path: Assets/Models/Food game
-  artifactKey: Guid(0ee9c62c0175c534bb937cadcbf4db41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game using Guid(0ee9c62c0175c534bb937cadcbf4db41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba755adce163ceb5f04df71a064f01') in 0.007042 seconds
-  Import took 0.009698 seconds .
+  Time since last request: 0.000105 seconds.
+  path: Assets/Audio/Idle2.wav
+  artifactKey: Guid(a821bfc4f069c024da846e5d6231d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Idle2.wav using Guid(a821bfc4f069c024da846e5d6231d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72726c6ba74469178e4d03b016b4822') in 0.007729 seconds
+  Import took 0.009157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.225917 seconds.
-  path: Assets/Models/Food game/Shelf
-  artifactKey: Guid(1d554f6aeedb26f459df1e4fb8ebd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Shelf using Guid(1d554f6aeedb26f459df1e4fb8ebd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301e3b8a7acb1d92f02e1370fedf22a4') in 0.006360 seconds
-  Import took 0.008700 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Audio/Gameover2.wav
+  artifactKey: Guid(b2d3a16675961f84d950268151a6598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Gameover2.wav using Guid(b2d3a16675961f84d950268151a6598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3299455980658030f0b1241a41320a20') in 0.010165 seconds
+  Import took 0.011800 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.088982 seconds.
-  path: Assets/Models/Food game/Shelf/shelf.obj
-  artifactKey: Guid(56de483ca0a15c2419bcc59f845011e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Shelf/shelf.obj using Guid(56de483ca0a15c2419bcc59f845011e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab034859fc18aee4eea57da6a279d7c') in 0.077044 seconds
-  Import took 0.079526 seconds .
+  Time since last request: 0.000176 seconds.
+  path: Assets/Audio/Opening 2.wav
+  artifactKey: Guid(e8c47997cceaab948adb915de59a5d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Opening 2.wav using Guid(e8c47997cceaab948adb915de59a5d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a167e611e04fd5733c868c3a511d476d') in 0.012717 seconds
+  Import took 0.014924 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Models/Food game/Shelf/shelf.png
-  artifactKey: Guid(e39a4b30b48c70d40b28820e5bd69044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Shelf/shelf.png using Guid(e39a4b30b48c70d40b28820e5bd69044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a011dc6a54516f27ecd5f75f4edfcf') in 0.018649 seconds
-  Import took 0.021083 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Audio/mixkit-office-telephone-ring-1350.wav
+  artifactKey: Guid(d7a21af2cbebea94081202dbf6b4bdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/mixkit-office-telephone-ring-1350.wav using Guid(d7a21af2cbebea94081202dbf6b4bdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aaa0dac839c158909866658504aa0b') in 0.010177 seconds
+  Import took 0.011769 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 233.493426 seconds.
-  path: Assets/Models/Food game/Door
-  artifactKey: Guid(68f0eb793a590e547aaed582a910fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Door using Guid(68f0eb793a590e547aaed582a910fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67226e1bb2ad47ee1cadf5b021adece5') in 0.008168 seconds
-  Import took 0.011103 seconds .
+  Time since last request: 0.000108 seconds.
+  path: Assets/Audio/Game Over.wav
+  artifactKey: Guid(614aaff3c24503146aba70990e9a567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Game Over.wav using Guid(614aaff3c24503146aba70990e9a567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5caa666e041967b7c0dd960c2f85cf') in 0.010623 seconds
+  Import took 0.012097 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.232769 seconds.
-  path: Assets/Models/Food game/Door/door.obj
-  artifactKey: Guid(dec50a6d04926f5469b62e592782ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Door/door.obj using Guid(dec50a6d04926f5469b62e592782ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b95f49329db23e161796eaab2cdff') in 0.030306 seconds
-  Import took 0.032806 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Audio/[ONTIVA.COM]-Toaster Oven Ding - Sound Effect-HQ.wav
+  artifactKey: Guid(930a0339c24f1bd4baf09ac6761b415c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/[ONTIVA.COM]-Toaster Oven Ding - Sound Effect-HQ.wav using Guid(930a0339c24f1bd4baf09ac6761b415c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db4ab44be5c7d7eb80a06cd504f5165') in 0.010103 seconds
+  Import took 0.011517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Models/Food game/Door/door.png
-  artifactKey: Guid(c521a0bede277a74f905a05526ce24e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Door/door.png using Guid(c521a0bede277a74f905a05526ce24e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baac03f420c84e05b2a32fb21602d86') in 0.006080 seconds
-  Import took 0.008278 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Audio/mixkit-urgent-simple-tone-loop-2976.wav
+  artifactKey: Guid(427fed1f979ed1745a67bbd5aa70fd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/mixkit-urgent-simple-tone-loop-2976.wav using Guid(427fed1f979ed1745a67bbd5aa70fd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a2fc256ee91230413914158451b319') in 0.010634 seconds
+  Import took 0.012201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 101.175731 seconds.
-  path: Assets/Models/Food game/window
-  artifactKey: Guid(d989d6541a4d0dd449185e5231f0105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/window using Guid(d989d6541a4d0dd449185e5231f0105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734b5168a9c181889da1bccf2b3e9837') in 0.008122 seconds
-  Import took 0.010943 seconds .
+  Time since last request: 0.000167 seconds.
+  path: Assets/Audio/Win2.wav
+  artifactKey: Guid(30d4969cff80f134fb1a7f134a511558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Win2.wav using Guid(30d4969cff80f134fb1a7f134a511558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb78eb63f700123d840fa47478c42ea') in 0.007638 seconds
+  Import took 0.009323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.081789 seconds.
-  path: Assets/Models/Food game/window/window.obj
-  artifactKey: Guid(87c294e7463916d46baae96a7a9c5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/window/window.obj using Guid(87c294e7463916d46baae96a7a9c5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70d9b73d72b7ba1f5ad30b1c707371f') in 0.025027 seconds
-  Import took 0.027525 seconds .
+  Time since last request: 0.000174 seconds.
+  path: Assets/Audio/Night_Chill_LofiHipHop.wav
+  artifactKey: Guid(aa012e2039a899e47a94e5e5e80ef11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Night_Chill_LofiHipHop.wav using Guid(aa012e2039a899e47a94e5e5e80ef11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f986ef876715212c5953546d875d75') in 0.011068 seconds
+  Import took 0.012561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Models/Food game/window/window.png
-  artifactKey: Guid(a4ce3c62db16833488d98f8bc6818b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/window/window.png using Guid(a4ce3c62db16833488d98f8bc6818b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b2e0a23bda7867a22f90f7318542ce') in 0.006097 seconds
-  Import took 0.008563 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/Audio/Win.wav
+  artifactKey: Guid(d98c822adc3f1314ea50ec89b525a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Win.wav using Guid(d98c822adc3f1314ea50ec89b525a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be648e1ab39382fda8ee2554d5ef4328') in 0.007245 seconds
+  Import took 0.008682 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.652919 seconds.
-  path: Assets/Models/Food game/Chef
-  artifactKey: Guid(b88fc6400f71aff4e852a98d2e94ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Chef using Guid(b88fc6400f71aff4e852a98d2e94ac45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36cb4bdd12bf189884c25734911a895') in 0.008341 seconds
-  Import took 0.011931 seconds .
+  Time since last request: 2.848119 seconds.
+  path: Assets/Audio/Meow.mp4
+  artifactKey: Guid(f8ea1096640ad4e48921750aa69cc382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Meow.mp4 using Guid(f8ea1096640ad4e48921750aa69cc382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efae37766efd4875146688b9a349bb81') in 0.002546 seconds
+  Import took 0.004089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.725604 seconds.
-  path: Assets/Models/Food game/Chef/chef crying.png
-  artifactKey: Guid(1b9fa5f22e61de14f884bb3ddcc7231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Chef/chef crying.png using Guid(1b9fa5f22e61de14f884bb3ddcc7231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843f60a43128ba439b34c12a6f2abe6d') in 0.012394 seconds
-  Import took 0.015433 seconds .
+  Time since last request: 0.034216 seconds.
+  path: Assets/Audio/Meow.mp4
+  artifactKey: Guid(f8ea1096640ad4e48921750aa69cc382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Meow.mp4 using Guid(f8ea1096640ad4e48921750aa69cc382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efae37766efd4875146688b9a349bb81') in 0.001507 seconds
+  Import took 0.003173 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Models/Food game/Chef/chef.png
-  artifactKey: Guid(cd0a53840acd1b34da52afec49e05f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Chef/chef.png using Guid(cd0a53840acd1b34da52afec49e05f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab28e1755e0cee9de55094498f0bcb5') in 0.015244 seconds
-  Import took 0.017790 seconds .
+  Time since last request: 58.350929 seconds.
+  path: Assets/Audio/Meow.wav
+  artifactKey: Guid(619b2bfaa93ff2d47aead4120c82679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Meow.wav using Guid(619b2bfaa93ff2d47aead4120c82679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d405a9f27fd7a1522f48aa86f2face') in 0.007950 seconds
+  Import took 0.009661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Models/Food game/Chef/Crying Chef.mat
-  artifactKey: Guid(fdf69523ff5b8974a95d3e9327f16344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Chef/Crying Chef.mat using Guid(fdf69523ff5b8974a95d3e9327f16344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d202bea420597e2d181dcadb412726') in 0.023593 seconds
-  Import took 0.026320 seconds .
+  Time since last request: 117.617870 seconds.
+  path: Assets/ScriptableObjects
+  artifactKey: Guid(44fc7733ff887434187a032838576a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects using Guid(44fc7733ff887434187a032838576a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801c781dfc15fa6ba262b349931caa58') in 0.004457 seconds
+  Import took 0.006238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Models/Food game/Chef/Chef.mat
-  artifactKey: Guid(ed01d0d5b42f7334e81dc71c280f494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Chef/Chef.mat using Guid(ed01d0d5b42f7334e81dc71c280f494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350de5c427f22894be2a0407150b6598') in 0.017492 seconds
-  Import took 0.021122 seconds .
+  Time since last request: 6.915693 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a557bb06028e1a24ab92cbf622d4a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a557bb06028e1a24ab92cbf622d4a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd534be2dda67e02a2789ae8b5815c67f') in 0.004406 seconds
+  Import took 0.005960 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Models/Food game/Chef/chef.obj
-  artifactKey: Guid(6df9282db8d74a844862c943a5582baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Chef/chef.obj using Guid(6df9282db8d74a844862c943a5582baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb6fbaabc9184792dee71bf704a611e') in 0.031846 seconds
-  Import took 0.035211 seconds .
+  Time since last request: 1.471294 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80b13d083268e7b1a93bafab0caa0f0') in 0.001817 seconds
+  Import took 0.003380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.103033 seconds.
-  path: Assets/Models/Food game/Ceiling Fan
-  artifactKey: Guid(0a570fc93e7e9f440ac63da092cdd98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Ceiling Fan using Guid(0a570fc93e7e9f440ac63da092cdd98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3b94035809441ff623988f41e84895') in 0.008996 seconds
-  Import took 0.011561 seconds .
+  Time since last request: 46.018783 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(f2696444b6252554680b839963191fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(f2696444b6252554680b839963191fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d506a3cfda7e23a2b7ec97a3649162') in 0.004696 seconds
+  Import took 0.006275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.336109 seconds.
-  path: Assets/Models/Food game/Ceiling Fan/fan.obj
-  artifactKey: Guid(94d7643d564e8c24981b6ee210c5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Ceiling Fan/fan.obj using Guid(94d7643d564e8c24981b6ee210c5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94c20a52d4530c1dce0d7bb898858d1') in 0.036685 seconds
-  Import took 0.039332 seconds .
+  Time since last request: 8.003251 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05105e698916ba2e0888d2eed8df2813') in 0.001729 seconds
+  Import took 0.003547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Models/Food game/Ceiling Fan/fan.png
-  artifactKey: Guid(2283512ef4db00d4cb800bd5e3169f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Ceiling Fan/fan.png using Guid(2283512ef4db00d4cb800bd5e3169f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9ec165579a1a56b37911e625d4e862') in 0.007196 seconds
-  Import took 0.009775 seconds .
+  Time since last request: 0.001543 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05105e698916ba2e0888d2eed8df2813') in 0.001478 seconds
+  Import took 0.002942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.639504 seconds.
-  path: Assets/Models/Food game/Clock
-  artifactKey: Guid(8f8c6ff6e2936844d8007ef838e1e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Clock using Guid(8f8c6ff6e2936844d8007ef838e1e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ce8de43fab01af52b4be19d8d8a50a') in 0.006322 seconds
-  Import took 0.008571 seconds .
+  Time since last request: 85.386945 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(1a136f01f5c4bcd4694b9f152a5a96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(1a136f01f5c4bcd4694b9f152a5a96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0cd9772435d28bcd48593db0cf5e9') in 0.004729 seconds
+  Import took 0.006344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1730.
+Total: 1.196800 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.051300 ms  DeleteObjects: 0.009300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.051989 seconds.
-  path: Assets/Models/Food game/Clock/clock.obj
-  artifactKey: Guid(bdf29bd7f608f904789211010f531cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Clock/clock.obj using Guid(bdf29bd7f608f904789211010f531cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1944710e4abd09a72a739ca0d3e6e1f2') in 0.028655 seconds
-  Import took 0.031474 seconds .
+  Time since last request: 68.715397 seconds.
+  path: Assets/Scenes/GameOver2.unity
+  artifactKey: Guid(eb145fd6700fd2b438837dd7e20c0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver2.unity using Guid(eb145fd6700fd2b438837dd7e20c0cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690373e23f1f65c62b160b80193f108f') in 0.011648 seconds
+  Import took 0.013447 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Models/Food game/Clock/clock.png
-  artifactKey: Guid(7ab6f5dfbb469d24cb6f5de5ff19357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Clock/clock.png using Guid(7ab6f5dfbb469d24cb6f5de5ff19357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ee29a723b1cf761f83bdb21602212') in 0.006683 seconds
-  Import took 0.010046 seconds .
+  Time since last request: 7.323631 seconds.
+  path: Assets/Scenes/GameOver_Ruined.unity
+  artifactKey: Guid(2302268b4ebc7ea4eacf91c18ed43472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver_Ruined.unity using Guid(2302268b4ebc7ea4eacf91c18ed43472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d806bbf756bcabf8408ce48723ac4a') in 0.004406 seconds
+  Import took 0.006044 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.111816 seconds.
-  path: Assets/Models/Food game/Photo
-  artifactKey: Guid(55ac218fa5cfa644daaf9489f639c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Photo using Guid(55ac218fa5cfa644daaf9489f639c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f32c820bd6828a153622a5defa6ad03') in 0.008412 seconds
-  Import took 0.010840 seconds .
+  Time since last request: 9.642225 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(1a136f01f5c4bcd4694b9f152a5a96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(1a136f01f5c4bcd4694b9f152a5a96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b68ec59d461406a196c7b4169d4437') in 0.001571 seconds
+  Import took 0.003201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.285195 seconds.
-  path: Assets/Models/Food game/Photo/photo.obj
-  artifactKey: Guid(da6e950bfdc3e3b4bbe4a53a621b71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Photo/photo.obj using Guid(da6e950bfdc3e3b4bbe4a53a621b71cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ff014ba80380b92298575b3ff9745f') in 0.026929 seconds
-  Import took 0.029204 seconds .
+  Time since last request: 1.485075 seconds.
+  path: Assets/Scenes/Win Scene.unity
+  artifactKey: Guid(61f44d88307faca48abd57b20a5dc99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Win Scene.unity using Guid(61f44d88307faca48abd57b20a5dc99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e503d2f5817095e4d971bc8eb13f2777') in 0.004446 seconds
+  Import took 0.006075 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Models/Food game/Photo/photo.png
-  artifactKey: Guid(3c1311c49e02061499f17e32b444c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food game/Photo/photo.png using Guid(3c1311c49e02061499f17e32b444c233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a97a82dfb74dc0548a3c1b317132ff') in 0.005770 seconds
-  Import took 0.008063 seconds .
+  Time since last request: 55.283874 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(a089400294946f84b82e7b728b060aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4141b89e0c7cc77d60b0fa24d0d5f1d') in 0.004438 seconds
+  Import took 0.006071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1255 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 1.353000 ms (FindLiveObjects: 0.113900 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.196100 ms  DeleteObjects: 0.010700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.2 MB.
+System memory in use after: 43.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 2.383600 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.036600 ms MarkObjects: 2.151500 ms  DeleteObjects: 0.013600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -42,7 +42,7 @@ public class SceneController : MonoBehaviour
     public void PlayLevelOTwo()
     {
         Debug.Log("Loading Level 2");
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene(5);
     }
 
     public void ReturnToMainMenu()

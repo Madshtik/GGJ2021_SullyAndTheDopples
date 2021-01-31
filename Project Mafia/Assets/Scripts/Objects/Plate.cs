@@ -8,6 +8,10 @@ public class Plate : MonoBehaviour
 {
     public PlayableDirector director;
 
+    public PlayerMovement player;
+
+    public bool toast;
+
     bool hasStarted = false;
 
     void Update()
@@ -22,8 +26,19 @@ public class Plate : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            hasStarted = true;
-            director.Play();
+            if (toast)
+            {
+                if (player.toasted)
+                {
+                    hasStarted = true;
+                    director.Play();
+                }
+            }
+            else
+            {
+                hasStarted = true;
+                director.Play();
+            }
         }
     }
 }

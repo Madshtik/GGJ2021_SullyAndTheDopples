@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     public float mySpeed;
     public float turnSmoothTime;
 
+    public bool toasted;
+
     Vector3 velocity;
 
     bool isGrounded;
