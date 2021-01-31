@@ -381,7 +381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69398768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.6, y: -19.09, z: -147.37772}
+  m_LocalPosition: {x: -25, y: 16.359432, z: -22.231712}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1570125592}
@@ -408,8 +408,8 @@ MonoBehaviour:
   m_IgnoreTag: Player
   m_TransparentLayers:
     serializedVersion: 2
-    m_Bits: 64
-  m_MinimumDistanceFromTarget: 0.1
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.05
   m_AvoidObstacles: 1
   m_DistanceLimit: 0
   m_MinimumOcclusionTime: 0
@@ -417,8 +417,8 @@ MonoBehaviour:
   m_Strategy: 0
   m_MaximumEffort: 4
   m_SmoothingTime: 0
-  m_Damping: 2.5
-  m_DampingWhenOccluded: 2.5
+  m_Damping: 0.5
+  m_DampingWhenOccluded: 0.5
   m_OptimalTargetDistance: 0
 --- !u!114 &69398771
 MonoBehaviour:
@@ -463,7 +463,7 @@ MonoBehaviour:
     m_DecelTime: 0.01
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -487,7 +487,7 @@ MonoBehaviour:
     m_DecelTime: 0.01
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -510,12 +510,12 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 17
-    m_Radius: 5
+  - m_Height: 30
+    m_Radius: 10
   - m_Height: 10
-    m_Radius: 12
-  - m_Height: -1
-    m_Radius: 5
+    m_Radius: 20
+  - m_Height: -10
+    m_Radius: 10
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 1570125593}
@@ -2410,7 +2410,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368882289}
-  m_LocalRotation: {x: 0.25130343, y: -8.158242e-26, z: -2.9732089e-25, w: 0.9679084}
+  m_LocalRotation: {x: 0.32755032, y: 0.000000028158242, z: -0.000000009761761, w: 0.94483376}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2831,7 +2831,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 403294831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,8 +2881,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414182491}
-  m_LocalRotation: {x: 0.25084135, y: -0.000000018622265, z: 0.000000004825514, w: 0.96802825}
-  m_LocalPosition: {x: 0, y: 3.6091423, z: -6.522278}
+  m_LocalRotation: {x: 0.32755035, y: 1.580367e-15, z: -2.7551417e-16, w: 0.94483376}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1534578738}
@@ -3062,7 +3062,7 @@ GameObject:
   - component: {fileID: 434092127}
   - component: {fileID: 434092126}
   - component: {fileID: 434092125}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5103,8 +5103,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843120901}
-  m_LocalRotation: {x: 0.25130346, y: -8.1582423e-26, z: -2.9732089e-25, w: 0.9679084}
-  m_LocalPosition: {x: 62.83851, y: 71.9, z: 4.295578}
+  m_LocalRotation: {x: 0.32755035, y: 0.000000028158242, z: -0.000000009761762, w: 0.94483376}
+  m_LocalPosition: {x: -3.7614899, y: 98.207565, z: 129.44159}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 148248444}
@@ -5574,7 +5574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 6.390857, z: -11.477714}
+  m_FollowOffset: {x: 0, y: 15.17943, z: -19.261713}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -7154,6 +7154,10 @@ PrefabInstance:
       value: Cat
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0b8bd14ae0f101345ad80fb89a4bbcf5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0b8bd14ae0f101345ad80fb89a4bbcf5, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -7168,6 +7172,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: 0b8bd14ae0f101345ad80fb89a4bbcf5, type: 3}
       propertyPath: m_LocalPosition.z
       value: 4.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 0b8bd14ae0f101345ad80fb89a4bbcf5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b8bd14ae0f101345ad80fb89a4bbcf5, type: 3}
@@ -7421,7 +7429,7 @@ GameObject:
   - component: {fileID: 1248418788}
   - component: {fileID: 1248418787}
   - component: {fileID: 1248418786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8395,7 +8403,7 @@ GameObject:
   - component: {fileID: 1344867213}
   - component: {fileID: 1344867212}
   - component: {fileID: 1344867211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8579,7 +8587,7 @@ GameObject:
   - component: {fileID: 1383083961}
   - component: {fileID: 1383083960}
   - component: {fileID: 1383083959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9325,7 +9333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 6.390857, z: -11.477714}
+  m_FollowOffset: {x: 0, y: 15.17943, z: -19.261713}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -9476,7 +9484,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570125591}
-  m_LocalRotation: {x: 0.25130343, y: -8.158242e-26, z: -2.9732089e-25, w: 0.9679084}
+  m_LocalRotation: {x: 0.32755035, y: 1.580367e-15, z: -2.7551417e-16, w: 0.94483376}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11465,7 +11473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 6.390857, z: -11.477714}
+  m_FollowOffset: {x: 0, y: 15.17943, z: -19.261713}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -13069,7 +13077,7 @@ GameObject:
   - component: {fileID: 2056948170}
   - component: {fileID: 2056948169}
   - component: {fileID: 2056948168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
