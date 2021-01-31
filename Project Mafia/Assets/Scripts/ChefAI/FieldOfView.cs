@@ -6,6 +6,8 @@ using UnityEngine.Playables;
 
 public class FieldOfView : MonoBehaviour
 {
+    public AudioSource source;
+
     public PlayableDirector director;
 
     public List<Transform> visibleTargets = new List<Transform>();
@@ -64,6 +66,7 @@ public class FieldOfView : MonoBehaviour
                     Debug.Log("Target Found");
                     visibleTargets.Add(target);
                     director.Play();
+                    source.Play();
                     started = true;
                 }
             }
