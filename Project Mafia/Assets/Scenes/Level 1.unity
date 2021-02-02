@@ -796,6 +796,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: window
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 87c294e7463916d46baae96a7a9c5c4f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 87c294e7463916d46baae96a7a9c5c4f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87c294e7463916d46baae96a7a9c5c4f, type: 3}
 --- !u!4 &199194673 stripped
@@ -1394,7 +1402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 323974843}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1521,7 +1529,7 @@ GameObject:
   - component: {fileID: 394198942}
   - component: {fileID: 394198941}
   - component: {fileID: 394198940}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2187,7 +2195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a555ee9395542f4d8f62cc51901d6c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 0}
+  source: {fileID: 52321490}
   director: {fileID: 52321489}
   visibleTargets: []
   targetMask:
@@ -2369,6 +2377,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da6e950bfdc3e3b4bbe4a53a621b71cb, type: 3}
       propertyPath: m_Name
       value: photo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da6e950bfdc3e3b4bbe4a53a621b71cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: da6e950bfdc3e3b4bbe4a53a621b71cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da6e950bfdc3e3b4bbe4a53a621b71cb, type: 3}
@@ -2851,7 +2867,7 @@ GameObject:
   - component: {fileID: 707460889}
   - component: {fileID: 707460888}
   - component: {fileID: 707460887}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3097,7 +3113,7 @@ GameObject:
   - component: {fileID: 818728763}
   - component: {fileID: 818728762}
   - component: {fileID: 818728761}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3609,6 +3625,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: clock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdf29bd7f608f904789211010f531cf8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: bdf29bd7f608f904789211010f531cf8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdf29bd7f608f904789211010f531cf8, type: 3}
 --- !u!4 &936133338 stripped
@@ -3832,6 +3856,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 94d7643d564e8c24981b6ee210c5ff1b, type: 3}
       propertyPath: m_Name
       value: fan
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94d7643d564e8c24981b6ee210c5ff1b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 94d7643d564e8c24981b6ee210c5ff1b, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94d7643d564e8c24981b6ee210c5ff1b, type: 3}
@@ -4758,6 +4790,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: door
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dec50a6d04926f5469b62e592782ba5e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: dec50a6d04926f5469b62e592782ba5e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dec50a6d04926f5469b62e592782ba5e, type: 3}
 --- !u!4 &1250482515 stripped
@@ -4777,7 +4817,7 @@ GameObject:
   - component: {fileID: 1252657380}
   - component: {fileID: 1252657379}
   - component: {fileID: 1252657378}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6916,7 +6956,7 @@ GameObject:
   - component: {fileID: 2139675921}
   - component: {fileID: 2139675920}
   - component: {fileID: 2139675919}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7154,13 +7194,13 @@ MonoBehaviour:
   m_IgnoreTag: Player
   m_TransparentLayers:
     serializedVersion: 2
-    m_Bits: 0
-  m_MinimumDistanceFromTarget: 0.1
+    m_Bits: 256
+  m_MinimumDistanceFromTarget: 0.01
   m_AvoidObstacles: 1
   m_DistanceLimit: 0
   m_MinimumOcclusionTime: 0
   m_CameraRadius: 0.1
-  m_Strategy: 0
+  m_Strategy: 2
   m_MaximumEffort: 4
   m_SmoothingTime: 0
   m_Damping: 0.5
@@ -7257,11 +7297,11 @@ MonoBehaviour:
   m_SplineCurvature: 0.2
   m_Orbits:
   - m_Height: 4.5
-    m_Radius: 5
+    m_Radius: 9
   - m_Height: 2.5
     m_Radius: 12
   - m_Height: 0.4
-    m_Radius: 5
+    m_Radius: 9
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 7438365451625913392}
@@ -7275,7 +7315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438365450195179263}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.576267, y: 6.0009713, z: -13.44068}
+  m_LocalPosition: {x: -18.483013, y: 6.0009713, z: -13.743923}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7438365451625913393}
@@ -7425,7 +7465,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438365450884787079}
-  m_LocalRotation: {x: 0.12836295, y: -0.14871699, z: 0.019472985, w: 0.98031986}
+  m_LocalRotation: {x: 0.12513895, y: -0.14886223, z: 0.018994605, w: 0.980724}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7523,7 +7563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 3.0309718, z: -11.477714}
+  m_FollowOffset: {x: 0, y: 3.0309718, z: -11.794971}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -7718,7 +7758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 3.0309718, z: -11.477714}
+  m_FollowOffset: {x: 0, y: 3.0309718, z: -11.794971}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -7861,7 +7901,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438365451625913395}
-  m_LocalRotation: {x: 0.12836295, y: -0.14871699, z: 0.019472985, w: 0.98031986}
+  m_LocalRotation: {x: 0.12513895, y: -0.14886223, z: 0.018994605, w: 0.980724}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7935,7 +7975,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438365451870753907}
-  m_LocalRotation: {x: 0.12836295, y: -0.14871699, z: 0.019472985, w: 0.98031986}
+  m_LocalRotation: {x: 0.12513892, y: -0.14886226, z: 0.018994605, w: 0.980724}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8071,8 +8111,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438365452031333787}
-  m_LocalRotation: {x: 0.12836298, y: -0.148717, z: 0.01947299, w: 0.9803199}
-  m_LocalPosition: {x: -18.797363, y: 5.802337, z: -12.621716}
+  m_LocalRotation: {x: 0.12513898, y: -0.14886223, z: 0.018994609, w: 0.980724}
+  m_LocalPosition: {x: -18.452042, y: 6.0280476, z: -13.727032}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1601256937122393906}
@@ -8148,7 +8188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 3.0309718, z: -11.477714}
+  m_FollowOffset: {x: 0, y: 3.0309718, z: -11.794971}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
