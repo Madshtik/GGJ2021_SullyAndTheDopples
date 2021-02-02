@@ -20,6 +20,7 @@ public class Plate : MonoBehaviour
     {
         if (director.state != PlayState.Playing && hasStarted)
         {
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(4);
         }
     }

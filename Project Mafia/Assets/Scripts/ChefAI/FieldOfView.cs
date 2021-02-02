@@ -33,6 +33,7 @@ public class FieldOfView : MonoBehaviour
     {
         if (director.state != PlayState.Playing && started)
         {
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(3);
         }
     }

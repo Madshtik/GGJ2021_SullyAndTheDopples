@@ -35,18 +35,21 @@ public class SceneController : MonoBehaviour
 
     public void PlayLevelOne()//put scene number input once level 1 and 2 are done
     {
+        Cursor.lockState = CursorLockMode.Locked;
         Debug.Log("Loading Level 1");
         SceneManager.LoadScene(1);
     }
 
     public void PlayLevelOTwo()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         Debug.Log("Loading Level 2");
         SceneManager.LoadScene(5);
     }
 
     public void ReturnToMainMenu()
     {
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene(0);
     }
 
