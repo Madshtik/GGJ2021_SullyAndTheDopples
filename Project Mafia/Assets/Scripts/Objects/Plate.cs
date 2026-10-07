@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Plate : MonoBehaviour
 {
+    public AudioSource source;
+
     public PlayableDirector director;
 
     public PlayerMovement player;
@@ -18,6 +20,7 @@ public class Plate : MonoBehaviour
     {
         if (director.state != PlayState.Playing && hasStarted)
         {
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(4);
         }
     }
@@ -32,12 +35,14 @@ public class Plate : MonoBehaviour
                 {
                     hasStarted = true;
                     director.Play();
+                    source.Play();
                 }
             }
             else
             {
                 hasStarted = true;
                 director.Play();
+                source.Play();
             }
         }
     }

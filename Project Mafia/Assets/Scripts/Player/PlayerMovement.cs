@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -62,6 +63,16 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
 
         velocity.y += gravity * Time.deltaTime; //handles falling
+
+        //if (SceneManager.sceneCount == 1 || SceneManager.sceneCount == 5)
+        //{
+        //    Cursor.lockState = CursorLockMode.Locked;
+        //}
+        //else
+        //{
+        //    Debug.Log(SceneManager.sceneCount);
+        //    Cursor.lockState = CursorLockMode.None;
+        //}
     }
 
     public void Jump(float thisJumpHeight)

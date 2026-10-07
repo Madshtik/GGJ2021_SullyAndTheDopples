@@ -476,7 +476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: QUIT
+  m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4678bfaaa59830e4b9b4fc11bdc3e431, type: 2}
   m_sharedMaterial: {fileID: 6212210183951123346, guid: 4678bfaaa59830e4b9b4fc11bdc3e431, type: 2}
@@ -816,7 +816,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 934, y: 272}
-  m_SizeDelta: {x: 500, y: 200}
+  m_SizeDelta: {x: 525, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1291497200
 MonoBehaviour:
@@ -864,7 +864,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 606335785}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: ReturnToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

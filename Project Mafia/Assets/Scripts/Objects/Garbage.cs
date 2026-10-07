@@ -9,6 +9,7 @@ public class Garbage : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(2);
         }
     }
