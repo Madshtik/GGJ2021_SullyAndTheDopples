@@ -7190,21 +7190,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CollideAgainst:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 321
   m_IgnoreTag: Player
   m_TransparentLayers:
     serializedVersion: 2
-    m_Bits: 256
-  m_MinimumDistanceFromTarget: 0.05
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
   m_AvoidObstacles: 1
   m_DistanceLimit: 0
   m_MinimumOcclusionTime: 0
-  m_CameraRadius: 0.1
-  m_Strategy: 0
-  m_MaximumEffort: 4
-  m_SmoothingTime: 0
-  m_Damping: 0.5
-  m_DampingWhenOccluded: 0.5
+  m_CameraRadius: 0.6
+  m_Strategy: 2
+  m_MaximumEffort: 8
+  m_SmoothingTime: 0.15
+  m_Damping: 0.6
+  m_DampingWhenOccluded: 0
   m_OptimalTargetDistance: 0
 --- !u!114 &7438365450195179260
 MonoBehaviour:
@@ -7228,7 +7228,7 @@ MonoBehaviour:
   m_Follow: {fileID: 7438365451206239070}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 55
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -7244,7 +7244,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.6
     m_SpeedMode: 0
-    m_MaxSpeed: 10
+    m_MaxSpeed: 1.5
     m_AccelTime: 0.1
     m_DecelTime: 0.01
     m_InputAxisName: Mouse Y
@@ -7300,7 +7300,7 @@ MonoBehaviour:
     m_Radius: 10
   - m_Height: 5
     m_Radius: 15
-  - m_Height: -1
+  - m_Height: 2
     m_Radius: 10
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
